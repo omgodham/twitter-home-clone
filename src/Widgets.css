@@ -1,6 +1,10 @@
 .widgets{
 flex: 0.3;
 padding:10px 20px;
+overflow-y: scroll;
+}
+.widgets::-webkit-scrollbar{
+    display: none;  
 }
 .widgets-search-bar{
 display: flex;

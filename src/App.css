@@ -8,8 +8,8 @@
  padding: 0;
   }
   .app{
+    display: flex;
     height: 100vh;
-display: flex;
 max-width: 1300px;
 margin-left: auto;
 margin-right: auto;

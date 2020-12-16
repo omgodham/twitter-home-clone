@@ -1,0 +1,29 @@
+.post{
+    margin: 10px;
+}
+.post-header{
+    align-items: center;
+    display: flex;
+    font-size: 70%;
+}
+.post-header >h2{
+margin-left: 10px;
+}
+.post-header >h3{
+    opacity: 0.5;
+}
+.verified-icon{
+    color: var(--twitter-color) !important;
+    font-size: 1rem  !important;
+    margin-right: 5px;
+}
+.actual-tweet{
+    margin-left: 3rem;
+}
+.actual-tweet >p{
+    margin-bottom:1rem ;
+}
+.tweet-image{
+    width: 100%;
+    border-radius: 1rem;
+}

@@ -1,6 +1,10 @@
 .feed{
     flex: 0.5;
     border:1px solid var(--twitter-background);
+    overflow-y: scroll;
+}
+.feed::-webkit-scrollbar{
+    display: none;
 }
 .feed-header{
     border-bottom: 1px solid var(--twitter-background);
@@ -36,4 +40,9 @@ display: flex;
     color: #fff !important;
     border-radius:30px !important;
     text-transform: inherit !important;
+}
+.image-url{
+    margin-top: 10px;
+padding: 10px;
+border: none;
 }
