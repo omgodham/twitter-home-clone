@@ -1,0 +1,29 @@
+.widgets{
+flex: 0.3;
+padding:10px 20px;
+}
+.widgets-search-bar{
+display: flex;
+background-color:var(--twitter-background);
+padding:10px 20px;
+border-radius: 30px;
+}
+.widgets-search-bar > input{
+    background-color: var(--twitter-background);
+    border: none;
+}
+.widgets-search-bar > input::placeholder{
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.widgets-content{
+    background-color: var(--twitter-background);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 15px;
+}
+.widgets-text{
+    font-size: 1.2rem;
+    padding-left:10px;
+    margin-bottom: 20px;
+}

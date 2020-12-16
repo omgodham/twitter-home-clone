@@ -1,0 +1,39 @@
+.feed{
+    flex: 0.5;
+    border:1px solid var(--twitter-background);
+}
+.feed-header{
+    border-bottom: 1px solid var(--twitter-background);
+}
+.feed-header >h2{
+    padding:10px 20px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.tweet-box-block{
+    border-bottom: 1px solid var(--twitter-background);
+    display: flex;
+    flex-direction: column;
+   padding: 10px 10px;
+}
+
+.tweet-box{
+display: flex;
+}
+.tweet-input{
+    flex: 1;
+    margin-left: 1rem;
+    border: none;
+}
+.tweet-input::placeholder{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.tweet-box-btn{
+    margin-top:10px !important;
+    margin-left: auto !important;
+    background-color: var(--twitter-color) !important;
+    color: #fff !important;
+    border-radius:30px !important;
+    text-transform: inherit !important;
+}

@@ -1,0 +1,31 @@
+.sidebar-options{
+    line-height:3rem;
+    display: flex;
+    /* padding:0.5rem 1rem; */
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+  width: 100%;
+}
+.sidebar-options >h2{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+padding-right: 1rem;
+}
+.sidebar-icon{
+padding-left: 1rem;
+font-size: 50px !important;
+}
+.sidebar-options:hover{
+    color: var(--twitter-color);
+    background-color: #e8f5fe;
+    transition: all 0.2s ease;
+}
+.twitter-icon{
+    margin-left: 1rem;
+    font-size: 2.2rem !important;
+    color: var(--twitter-color);
+}
+.home-active{
+    color: var(--twitter-color);
+}
