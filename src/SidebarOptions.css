@@ -6,6 +6,7 @@
     border-radius: 30px;
     cursor: pointer;
   width: 100%;
+  
 }
 .sidebar-options >h2{
     font-size: 1.2rem;
@@ -22,9 +23,15 @@ font-size: 50px !important;
     transition: all 0.2s ease;
 }
 .twitter-icon{
-    margin-left: 1rem;
-    font-size: 2.2rem !important;
-    color: var(--twitter-color);
+    padding: 5px !important;
+    margin-left: 1rem !important;
+    font-size: 2.9rem !important;
+    color: var(--twitter-color) !important;
+}
+.twitter-icon:hover{
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: var(--twitter-background);
 }
 .home-active{
     color: var(--twitter-color);

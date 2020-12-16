@@ -13,11 +13,14 @@ padding:10px 20px;
 border-radius: 30px;
 }
 .widgets-search-bar > input{
+    margin-left: 1rem;
     background-color: var(--twitter-background);
     border: none;
+    outline: none;
+    font-size: 1rem;
 }
 .widgets-search-bar > input::placeholder{
-    padding-left: 1rem;
+  
     font-size: 1rem;
 }
 .widgets-content{

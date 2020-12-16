@@ -1,8 +1,14 @@
 .post{
-    margin: 10px;
+    padding: 10px;
+    border-top: 1px solid var(--twitter-background);
+    border-bottom: 1px solid var(--twitter-background);
+}
+.post:hover{
+    cursor: pointer;
+    background-color:rgb(235, 235, 235);
 }
 .post-header{
-    align-items: center;
+    align-items: start;
     display: flex;
     font-size: 70%;
 }
@@ -17,8 +23,18 @@ margin-left: 10px;
     font-size: 1rem  !important;
     margin-right: 5px;
 }
+.post-more-icon{
+    margin-left: auto;
+    font-size: 2rem !important;
+}
+.post-more-icon:hover{
+    background-color: rgb(203, 229, 245);
+    border-radius: 30px;
+  
+}
 .actual-tweet{
-    margin-left: 3rem;
+    margin-top: -20px;
+    margin-left: 3.1rem;
 }
 .actual-tweet >p{
     margin-bottom:1rem ;
@@ -26,4 +42,13 @@ margin-left: 10px;
 .tweet-image{
     width: 100%;
     border-radius: 1rem;
+}
+.reaction-icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.reaction-icon{
+    margin: 0.5rem auto;
+    font-size: 1.3rem !important;
 }
