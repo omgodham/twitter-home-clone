@@ -45,11 +45,12 @@ function setNewTweet(event){
 
     return <div className="feed">
             <div className="feed-header">
-                <h2>Home</h2>
+                <h2 style={{ cursor:'pointer'}}>Home</h2>
+                <i class="fi-xwluxl-star-wide star"></i>
             </div>
             <form className="tweet-box-block">
             <div className="tweet-box">
-            <Avatar 
+            <Avatar className="avatar-image"
             src="https://pbs.twimg.com/profile_images/1065633264084402177/DD-DVJp4_400x400.jpg"/>
             <input className="tweet-input" 
             placeholder="What's happening?" type="url" name="text" value={tweet.text} onChange={handleChange} />

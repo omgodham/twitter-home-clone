@@ -5,7 +5,7 @@
 }
 .post:hover{
     cursor: pointer;
-    background-color:rgb(235, 235, 235);
+    background-color:rgb(245, 244, 244);
 }
 .post-header{
     align-items: start;
@@ -26,6 +26,8 @@ margin-left: 10px;
 .post-more-icon{
     margin-left: auto;
     font-size: 2rem !important;
+    opacity: 0.5 !important;
+    cursor: pointer;
 }
 .post-more-icon:hover{
     background-color: rgb(203, 229, 245);
@@ -49,6 +51,12 @@ margin-left: 10px;
     
 }
 .reaction-icon{
+    padding: 7px;
+    opacity: 0.5 !important;
     margin: 0.5rem auto;
-    font-size: 1.3rem !important;
+    font-size: 2rem !important;
+}
+.reaction-icon:hover{
+    background-color: rgb(203, 229, 245);
+    border-radius: 30px;
 }
