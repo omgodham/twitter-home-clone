@@ -12,10 +12,10 @@ function  Post({newTweetText,newTweetImage}) {
 
     return <div className="post">
     <div className="post-header">
-        <Avatar src="https://pbs.twimg.com/profile_images/1065633264084402177/DD-DVJp4_400x400.jpg" />
-        <h2 className="display-name">Omkar</h2>
+        <Avatar src="https://pbs.twimg.com/profile_images/378800000305778238/852d2f76797dbe1da82095f988d38fbe_400x400.png" />
+        <h2 className="display-name">Elon Musk</h2>
       <VerifiedUserIcon className="verified-icon"/>
-        <h3>@omkargodham</h3>
+        <h3>@elonmusk</h3>
         <MoreHorizIcon className="post-more-icon"/>
       </div>
       <div className="actual-tweet">

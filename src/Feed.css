@@ -2,6 +2,7 @@
     flex: 0.5;
     border:1px solid var(--twitter-background);
     overflow-y: scroll;
+    height: 100vh;
 }
 .feed::-webkit-scrollbar{
     display: none;
@@ -87,4 +88,82 @@ border: none;
     cursor: pointer;
     background-color: rgb(203, 229, 245);
     border-radius: 30px;
+}
+.home-avatar{
+    display: none !important;
+}
+.footer-navbar-block{
+    display: none;
+}
+.footer-navbar{
+background-color: #fff;
+    display: flex;
+   width: 100%;
+    align-items: center;
+    height: 50px;
+    z-index: 10;
+    position: fixed;
+}
+.footer-navbar-icon{
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 30px;
+    
+}
+.footer-navbar-icon:hover{
+    
+background-color: rgb(203, 229, 245);
+}
+.footer-icon-active{
+    color: var(--twitter-color);
+}
+.footer-navbar-tweet-btn{
+    display: none !important;
+    position: absolute !important;
+    bottom: 60px;
+    right:30px;
+    z-index: 10;
+    background-color: var(--twitter-color);
+}
+@media screen and (max-width:1280px){
+.feed{
+    flex:0.6;
+}
+.footer-navbar-icon{
+    margin: auto auto;
+}
+
+}
+@media screen and (max-width:1007px){
+    .feed{
+        flex:0.8;
+    }
+}
+@media screen and (max-width:750px){
+    .feed{
+        flex:0.9;
+    }
+}
+@media screen and (max-width:502px){
+    .feed{
+        flex:1;
+    }
+    .home-avatar{
+        display: block !important;
+    }
+    .feed-header{
+      padding:0.5rem;
+    }
+    .tweet-box-block{
+        display: none;
+    }
+    .footer-navbar-block{
+       position: absolute;
+       bottom: 50px;
+
+        display: block;
+    }
+    .footer-navbar-tweet-btn{
+        display: block !important;
+    }
 }

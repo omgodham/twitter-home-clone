@@ -8,11 +8,20 @@
  padding: 0;
   }
   .app{
-    display: flex;
+      display: flex;
     height: 100vh;
 max-width: 1300px;
 margin-left: auto;
 margin-right: auto;
-padding: 0 10px;
-font-family: 'Roboto', sans-serif;
+padding: 0 10px; 
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
   }
+
+  @media screen and (max-width:600px){
+  .app{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+  

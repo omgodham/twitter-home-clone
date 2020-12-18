@@ -1,10 +1,14 @@
 .sidebar{
+    height: 100vh;
     flex: 0.2;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     padding-left: 1rem;
     border-right: 1px solid var(--twitter-background);
 }
+
 .sidebar-tweet-btn{
+
+    margin-top: 0.5rem !important;
 background-color: var(--twitter-color) !important;
 border-radius: 30px !important;
 padding: 0.5rem 2rem !important;
@@ -17,7 +21,7 @@ font-size: 1rem !important;
 .sidebar-footer{
     width: 90%;
     cursor: pointer;
-    margin-top: 3rem;
+    margin-top: 25%;
     display: flex;
 }
 .sidebar-footer:hover{
@@ -36,6 +40,52 @@ margin:.5rem .5rem;
 }
 .footer-more-icon{
     margin: auto auto;
-/* margin-left: auto !important; */
 opacity: 0.5 !important;
 }
+
+.small-sidebar-avatar{
+    display: none !important;
+    margin-bottom: 40% !important;
+}
+.small-sidebar-tweet-btn{
+    cursor: pointer;
+   height: 50px !important;
+   width: 50px !important;
+background-color: var(--twitter-color);
+display: none !important;
+margin-bottom: 1rem;
+
+}
+
+@media screen and (max-width:1280px){
+    .sidebar{
+        flex: 0.1;
+    }
+    .sidebar-footer{
+        display: none;
+    }
+    .sidebar-tweet-btn{
+        display: none !important;
+    } 
+    .small-sidebar-tweet-btn{
+        margin-right: 1rem;
+        margin-left: auto;
+        display: block !important; 
+    }
+
+        .small-sidebar-avatar{
+            cursor: pointer;
+            display: block !important;
+            margin-right: 1rem;
+            margin-left: auto;
+            margin-top: 50%;   
+            margin-bottom: 20%;
+        }
+
+    }
+    @media screen and (max-width:501px){
+        .sidebar{
+            display:none;
+        }
+    }
+       
